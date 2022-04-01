@@ -4,7 +4,6 @@ import appStoreIcon from "./images/appStore.png";
 import playStoreIcon from "./images/playStore.png";
 import "./NewsContent.css";
 import NewsCard from "../NewsCard/NewsCard";
-import { NewReleases } from "@mui/icons-material";
 
 function NewsContent({ newsArray, newsResults, loadMore, setLoadMore }) {
   return (
