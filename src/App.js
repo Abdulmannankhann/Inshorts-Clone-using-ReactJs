@@ -5,7 +5,6 @@ import NewsContent from "./components/NewsContent";
 import * as axios from "axios";
 import apiKey from "./Data/ApiKey";
 import Footer from "./components/Footer/Footer";
-
 function App() {
   const [category, setCategory] = useState("general");
   const [newsArray, setNewsArray] = useState([]);
@@ -28,7 +27,6 @@ function App() {
     newsApi();
     // eslint-disable-next-line
   }, [newsResults, category, loadMore]);
-
   return (
     <div className="App">
       <NavInshorts setCategory={setCategory} />
